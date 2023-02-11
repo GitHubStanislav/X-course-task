@@ -1,0 +1,79 @@
+[type="number"]::-webkit-outer-spin-button,
+[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+body {
+  background-color: ghostwhite;
+  padding: 0px;
+}
+.nav {
+  background-color: whitesmoke;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border-top: 1px solid #44000a;
+  border-bottom: 1px solid #44000a; */
+  height: 50px;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.div-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 320px;
+}
+.wrapper {
+  display: flex;
+}
+.basket-image {
+  width: 50px;
+  height: 50px;
+}
+.user-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+.input-search {
+  width: 600px;
+  margin-top: 20px;
+}
+.input-prise {
+  width: 400px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.wrapper-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrapper-cards .books {
+  width: 255px;
+  min-height: 450px;
+  border: solid 3px rgba(0, 0, 0, 0.033);
+  margin-right: 35px;
+  margin-top: 20px;
+}
+.wrapper-cards .books .book-name {
+  font-weight: 700;
+}
+
+.wrapper-cards .price-button-view {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+.wrapper-cards .price-button-view .view-more {
+  width: 80px;
+}

@@ -1,0 +1,138 @@
+[type="number"]::-webkit-outer-spin-button,
+[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+body {
+  background-color: ghostwhite;
+  padding: 0px;
+}
+/* .my-button-style,
+.button-basket {
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+.my-button-style:hover {
+  background-size: 100% 2px;
+}
+.button-basket:hover {
+  background-size: 100% 2px;
+} */
+.wrapper-form label {
+  margin: 0px 2px 16px;
+}
+.nav {
+  background-color: whitesmoke;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border-top: 1px solid #44000a;
+  border-bottom: 1px solid #44000a; */
+  height: 50px;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.div-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 320px;
+}
+.basket-image {
+  width: 50px;
+  height: 50px;
+}
+.user-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.parent-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.first,
+.second,
+.third {
+  margin: 10px;
+}
+
+.second {
+  height: auto;
+}
+.img-wrapper {
+  width: 260px;
+}
+.img {
+  width: 250px;
+}
+.description {
+  margin-right: 50px;
+  padding-left: 10px;
+}
+.wrapper-form {
+  display: flex;
+  justify-content: space-between;
+  width: 210px;
+  height: 186px;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5%;
+  background-color: rgba(208, 208, 208, 0.1);
+  border: 3px solid rgba(0, 0, 0, 0.055);
+  color: black;
+}
+
+.custom-input {
+  padding: 5px;
+  height: 26px;
+  width: 50px;
+}
+.custom-span {
+  padding: 5px;
+  height: 26px;
+}
+.svg-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.img-svg-up {
+  width: 16px;
+  height: 16px;
+}
+.img-svg-down {
+  width: 16px;
+  height: 16px;
+}
+.first-penal {
+  width: auto;
+}
+.second-penal {
+  text-align: right;
+  width: 102px;
+}
+
+@media (max-width: 607px) {
+  .nav {
+    height: auto;
+    padding: 2px;
+  }
+}
