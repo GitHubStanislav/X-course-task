@@ -1,5 +1,5 @@
 "use strict";
-const formForOrderingGoods = document.querySelector(".svg-wrapper");
+const imgButtonsForForm = document.querySelector(".svg-wrapper");
 const formPriseValue = document.querySelector(".prise");
 const formTotalPrise = document.querySelector(".total-prise");
 const inputFormOrdering = document.querySelector("#input-count");
@@ -29,7 +29,7 @@ inputFormOrdering.addEventListener("input", () => {
   formTotalPrise.innerHTML = inputTotalPrise();
 });
 
-formForOrderingGoods.addEventListener("click", (event) => {
+imgButtonsForForm.addEventListener("click", (event) => {
   if (event.target && event.target.matches("img.img-svg-up")) {
     if (Number(inputFormOrdering.value) !== 42) {
       inputFormOrdering.value++;
