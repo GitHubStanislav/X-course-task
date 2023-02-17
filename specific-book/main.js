@@ -6,7 +6,7 @@ const inputFormOrdering = document.querySelector("#input-count");
 const inputsFor42MaxLogic = document.querySelectorAll("#input-count");
 
 
-let inputTotalPrise = function () {
+const inputTotalPrise = function () {
   return Number(inputFormOrdering.value) * Number(formPriseValue.innerHTML);
 
 };
