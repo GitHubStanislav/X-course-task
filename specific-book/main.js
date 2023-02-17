@@ -4,9 +4,7 @@ const prise = document.querySelector(".prise");
 const totalPrise = document.querySelector(".total-prise");
 const input = document.querySelector("#input-count");
 const inputs = document.querySelectorAll("#input-count");
-const imgUp = document.querySelector(".img-svg-up");
-const imgDown = document.querySelector(".img-svg-down");
-const button = document.querySelector(".my-button-style");
+
 
 let inputTotalPrise = function () {
   let resault = Number(input.value) * Number(prise.innerHTML);
